@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+/* The first section */
+.tophat{
+}
+.title{
+    font-family: 'Playfair Display', serif;
+}
+.subtitle{
+    font-family: fangsong;
+    color: gray;
+}
+.circle{
+    border: solid 1.5rem black;
+    width: 20rem;
+    height: auto;
+}
+
+/* The first section ends */
+
+/* The second section */
+.second{
+    margin-top: -12rem;
+    height: 20rem;
+    background-color: black;
+}
+/* The second section ends */
+
