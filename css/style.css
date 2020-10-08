@@ -2,7 +2,6 @@
 
 body{
     font-family: fangsong;
-    font-size: 2px;
 }
 nav{
     padding-top: 2rem;
@@ -51,5 +50,11 @@ nav{
 /* The second section ends */
 
 /* The third section */
-
+.first-action{
+    color: white;
+    background-color:  rgba(3, 53, 3, 0.808) !important;
+}
+.ctitle{
+    color: rgba(3, 53, 3, 0.808) !important;
+}
 /* The third section ends */
