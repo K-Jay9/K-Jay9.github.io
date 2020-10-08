@@ -1,17 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
+body{
+    font-family: fangsong;
+    font-size: 2px;
+}
+nav{
+    padding-top: 2rem;
+    background-color: rgb(0, 0,0,0);
+    box-shadow: none;
+}
+.brand-logo{
+    margin-left: 5rem;
+}
+.btn{
+    border-radius: 25%;
+    background-color: rgba(3, 53, 3, 0.808);
+    margin-right: 5rem;
+}
 
 /* The first section */
 .tophat{
+    height: auto;
 }
 .title{
-    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
 }
 .subtitle{
-    font-family: fangsong;
     color: gray;
 }
+
 .circle{
-    border: solid 1.5rem black;
     width: 20rem;
     height: auto;
 }
@@ -20,9 +38,18 @@
 
 /* The second section */
 .second{
-    margin-top: -12rem;
     height: 20rem;
-    background-color: black;
+    background-color: rgba(3, 53, 3, 0.808);
+}
+.about{
+    line-height: 1.6;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-left:2rem;
+    padding-right:2rem;
 }
 /* The second section ends */
 
+/* The third section */
+
+/* The third section ends */
