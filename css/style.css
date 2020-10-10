@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
 
 body{
     font-family: fangsong;
@@ -16,7 +17,11 @@ nav{
     background-color: rgba(3, 53, 3, 0.808);
     margin-right: 5rem;
 }
-
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
 /* The first section */
 .tophat{
     height: auto;
@@ -50,12 +55,23 @@ nav{
 /* The second section ends */
 
 /* The third section */
+.large{
+    height:900px !important;
+}
 .first-action{
     color: white;
     background-color:  rgba(3, 53, 3, 0.808) !important;
 }
 .ctitle{
     color: rgba(3, 53, 3, 0.808) !important;
+    font-weight: bolder !important;
+}
+.projects{
+    word-spacing: 2px;
+    font-family: 'Peddana', serif;
+    font-size: 2rem;
+    overflow: hidden;
+
 }
 /* The third section ends */
 
@@ -68,19 +84,14 @@ nav{
     font-weight: bolder;
 }
 /* The skills section ends */
+.page-footer{
+    box-shadow: none !important;
+}
 
-.social{
-    padding: 2rem;
-}
-.social-icons{
-    border: solid   2px;
-    border-radius: 50%;
-    border-color: rgb(41, 184, 41) !important;
-}
 .social-icons:hover{
     background-color: rgba(3, 53, 3, 0.808) !important;
+    border-radius: 50%;
 }
 .copyright{
-    margin-bottom: -4rem;
     color: rgba(3, 53, 3, 0.808) !important;
 }
